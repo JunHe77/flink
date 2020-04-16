@@ -17,6 +17,9 @@
 sudo: required
 dist: xenial
 
+arch:
+  - amd64
+  - arm64
 cache:
   # default timeout is too low
   timeout: 600
